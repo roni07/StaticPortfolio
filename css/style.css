@@ -566,7 +566,7 @@ body {
     height: 100%;
     top: 0;
     left: -105%;
-    background: rgba(65, 100, 255, 0.9);
+    background: rgba(65, 100, 255, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -715,4 +715,162 @@ body {
 
 .blog .card-content .card-text{
     margin-top: 20px;
+}
+
+/* Theme Section */
+.theme-section {
+    position: relative;
+    background-image: url("../images/theme.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+.theme-section .theme-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(65, 100, 255, 0.7);
+}
+
+.theme-section .theme-heading span{
+    color: #a0f669;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.theme-section .theme-heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.theme-section .theme-text {
+    color: #fff;
+}
+
+.theme-section .hire-button {
+    background-color: #3e64ff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #3e64ff;
+    border-radius: 40px;
+    padding:15px 40px;
+}
+
+.theme-section .hire-button:hover {
+    color: #000000;
+}
+
+/* Contact Section */
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact .contact-heading {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.contact .contact-card {
+    max-height: 300px;
+}
+
+.contact .card-content .contact-icon-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.contact .contact-card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.contact .card-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.contact .card-content a{
+    color: #3e64ff;
+    text-decoration: none;
+}
+
+.contact .card-content .contact-icon::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: #3e64ff;
+    z-index: -1;
+}
+
+.contact .card-content i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.contact .contact-form {
+    background-color: #f8f9fa;
+}
+
+.contact-form .form-elements{
+    padding: 45px 35px 0px 35px;
+}
+
+.contact-form .form-elements .name, .email, .subject, .text-area{
+    padding: 25px 10px;
+    margin-bottom: 15px;
+} 
+
+.contact-form .form-elements .send-message-btn {
+    background-color: #3e64ff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #3e64ff;
+    border-radius: 40px;
+    padding:15px 40px;
+}
+
+.contact-form .form-elements .send-message-btn:hover {
+    color: #000000;
+}
+
+/* Footer Section */
+
+.footer-section {
+    height: 400px;
+    background-color: #000000;
 }
