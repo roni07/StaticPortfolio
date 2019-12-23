@@ -174,7 +174,7 @@ body {
 }
 
 .description dt {
-    font-weight: 400;
+    font-weight: 500;
     color: black;
 }
 
@@ -541,7 +541,7 @@ body {
     margin-bottom: 30px;
 }
 
-.projects .about-our-prject-txt {
+.projects .about-our-project-txt {
     margin-bottom: 40px;
 }
 
@@ -575,7 +575,7 @@ body {
 }
 
 .project-card .card-content h5 {
-    font-style: 20px;
+    font-size: 20px;
     font-weight: 400;
     color: #ffffff;    
 }
@@ -662,3 +662,57 @@ body {
      align-items: center;
      flex-direction: column;
  }
+
+
+ /* Blog Section */
+.blog {
+    margin-bottom: 200px;
+}
+
+ .blog .blog-txt {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.blog .about-our-blog-txt {
+    margin-bottom: 40px;
+}
+
+.blog .card-content {
+    border: none;
+    border-radius: 0;
+}
+.blog .blog-page-link {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.blog .blog-page-link:hover {
+    color: #3e64ff;
+}
+
+.blog .card-content .date {
+    color: #3e64ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blog .card-content .role-link {
+    margin: 0 3px;
+}
+
+.blog .card-content .card-text a{
+    color: #3e64ff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog .card-content .card-text{
+    margin-top: 20px;
+}
