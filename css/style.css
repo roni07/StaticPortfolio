@@ -782,6 +782,10 @@ body {
     margin-bottom: 30px;
 }
 
+.contact .about-our-contact-txt {
+    margin-bottom: 2rem;
+}
+
 .contact .contact-card {
     max-height: 300px;
 }
