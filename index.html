@@ -21,7 +21,7 @@
 
 <body>
     <!-- Navigation -->
-    <section class="top-section">
+    <section class="top-section" id="home">
         <header class="header">
             <div class="container">
                 <nav class="navbar roni-nav navbar-expand-lg navbar-light">
@@ -33,25 +33,25 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-3">
-                                <a href="#" class="nav-link">Home</a>
+                                <a id="home-link" href="#home" class="nav-link active-section-link">Home</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a href="#about-page" class="nav-link">About</a>
+                                <a id="about-link" href="#about" class="nav-link">About</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a href="#resume-page" class="nav-link">Resume</a>
+                                <a id="resume-link" href="#resume" class="nav-link">Resume</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a href="#services-page" class="nav-link">Services</a>
+                                <a id="services-link" href="#services" class="nav-link">Services</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a href="#projects-page" class="nav-link">Projects</a>
+                                <a id="projects-link" href="#projects" class="nav-link">Projects</a>
                             </li>
+                            <!-- <li class="nav-item mx-4">
+                                <a id="blog-link" href="#blog" class="nav-link">My Blog</a>
+                            </li> -->
                             <li class="nav-item mx-4">
-                                <a href="#blog-page" class="nav-link">My Blog</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a href="#contact-page" class="nav-link">Contact</a>
+                                <a id="contact-link" href="#contact" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about-page">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-6 profile-pic">
@@ -109,13 +109,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Platform Section -->
-    <div class="platform-section">
-        <div class="container">
-            <div class="row">
+            <div class="platform-section row">
                 <div class="col platform-section-img text-center"><img src="images/microsoft.png" alt=""></div>
                 <div class="col platform-section-img text-center"><img src="images/android.png" alt=""></div>
                 <div class="col platform-section-img text-center"><img src="images/java.png" alt=""></div>
@@ -123,23 +118,23 @@
                 <div class="col platform-section-img text-center"><img src="images/adobe.png" alt=""></div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Bio Section -->
-    <section class="bio-section" id="resume-page">
+    <section class="bio-section" id="resume">
         <div class="container">
             <div class="bio">
                 <aside class="side-bar">
                     <div class="side-bar-nav">
-                        <a href="#education-page" class="education">Education</a>
-                        <a href="#experience-page" class="experience">Experience</a>
-                        <a href="#skill-page" class="skills">Skills</a>
-                        <a href="#award-page" class="award">Award</a>
+                        <a href="#education" class="education">Education</a>
+                        <a href="#experience" class="experience">Experience</a>
+                        <a href="#skill" class="skills">Skills</a>
+                        <a href="#award" class="award">Award</a>
                     </div>
                 </aside>
                 <article class="bio-contetn-elements">
                     <!-- Education -->
-                    <div class="bio-content education-content" id="education-page">
+                    <div class="bio-content education-content" id="education">
                         <h2 class="heading">Education</h2>
                         <div class="header-content">
                             <div class="resume-icon">
@@ -212,7 +207,7 @@
                     </div>
 
                     <!-- Experience -->
-                    <div class="bio-content experience-content" id="experience-page">
+                    <div class="bio-content experience-content" id="experience">
                         <h2 class="heading">Experience</h2>
                         <div class="header-content">
                             <div class="resume-icon">
@@ -262,7 +257,7 @@
                     </div>
 
                     <!-- Skills -->
-                    <div class="bio-content skills-content" id="skill-page">
+                    <div class="bio-content skills-content" id="skill">
                         <h2 class="heading">Skills</h2>
                         <div class="progress-card-content">
                             <div class="card progress-card">
@@ -387,7 +382,7 @@
                     </div>
 
                     <!-- Award -->
-                    <div class="bio-content award-content" id="award-page">
+                    <div class="bio-content award-content" id="award">
                         <h2 class="heading">Award</h2>
                         <div class="header-content">
                             <div class="resume-icon">
@@ -441,7 +436,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="services-page">
+    <section class="services" id="services">
         <div class="container">
             <h1 class="service-txt text-center">Services</h1>
             <p class="about-our-service-txt text-center">Far far away, behind the word mountains, far from the countries
@@ -512,7 +507,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects-page">
+    <section class="projects" id="projects">
         <h1 class="project-txt text-center">Projects</h1>
         <p class="about-our-project-txt text-center">Far far away, behind the word mountains, far from the countries
             Vokalia and
@@ -603,7 +598,7 @@
     </section>
 
     <!-- Blog Section -->
-    <div class="blog" id="blog-page">
+    <!-- <div class="blog" id="blog">
         <div class="container">
             <h1 class="blog-txt text-center">Our Blog</h1>
             <p class="about-our-blog-txt text-center">Far far away, behind the word mountains, far from the countries
@@ -614,7 +609,7 @@
                     <div class="card card-content">
                         <img class="card-img-top" src="images/blog-image/blog_image_1.webp" alt="Card image cap">
                         <div class="card-body pl-0">
-                            <a href="#" class="blog-page-link">Why Lead Generation is Key for Business Growth</a>
+                            <a href="#" class="blog-link">Why Lead Generation is Key for Business Growth</a>
                             <p class="card-text">
                                 <span class="date">Sept. 12, 2019</span>
                                 <a href="#" class="role-link">Admin</a>
@@ -633,7 +628,7 @@
                     <div class="card card-content">
                         <img class="card-img-top" src="images/blog-image/blog_image_2.webp" alt="Card image cap">
                         <div class="card-body pl-0">
-                            <a href="#" class="blog-page-link">Why Lead Generation is Key for Business Growth</a>
+                            <a href="#" class="blog-link">Why Lead Generation is Key for Business Growth</a>
                             <p class="card-text">
                                 <span class="date">Sept. 12, 2019</span>
                                 <a href="#" class="role-link">Admin</a>
@@ -652,7 +647,7 @@
                     <div class="card card-content">
                         <img class="card-img-top" src="images/blog-image/blog_image_3.webp" alt="Card image cap">
                         <div class="card-body pl-0">
-                            <a href="#" class="blog-page-link">Why Lead Generation is Key for Business Growth</a>
+                            <a href="#" class="blog-link">Why Lead Generation is Key for Business Growth</a>
                             <p class="card-text">
                                 <span class="date">Sept. 12, 2019</span>
                                 <a href="#" class="role-link">Admin</a>
@@ -668,20 +663,21 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Theme Section -->
-    <div class="theme-section">
-        <div class="theme-content text-center">
-            <h1 class="theme-heading">I'm <span>Available</span> for freelancing</h1>
-            <p class="theme-text">A small river named Duden flows by their place and supplies it <br>with the necessary
-                regelialia.</p>
-            <button class="btn hire-button">HIRE ME</button>
-        </div>
-    </div>
 
     <!-- Contact Section -->
-    <div class="contact" id="contact-page">
+    <section class="contact" id="contact">
+
+        <div class="theme-section">
+            <div class="theme-content text-center">
+                <h1 class="theme-heading">I'm <span>Available</span> for freelancing</h1>
+                <p class="theme-text">A small river named Duden flows by their place and supplies it <br>with the necessary
+                    regelialia.</p>
+                <button class="btn hire-button">HIRE ME</button>
+            </div>
+        </div>
+
         <div class="container">
             <h1 class="contact-heading text-center">Contact Me</h1>
             <p class="about-our-contact-txt text-center">Far far away, behind the word mountains, far from the countries
@@ -756,7 +752,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer Section -->
     <footer class="footer-section">
@@ -832,6 +828,9 @@
             <p class="copyright">Copyright &copy;2019 All rights reserved | By <strong>Mehedi Hasan.</strong></p>
         </div>
     </footer>
+
+    <!-- My Script -->
+    <script src="js/main.js"></script>
 
     <!-- Script -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
