@@ -95,6 +95,7 @@ body {
 .banner .third-text {
     font-weight: 800;
     color: #000000;
+    animation: banner-third-text-type-animation 3s infinite;
 }
 
 .banner .third-text .dev-txt {
@@ -136,7 +137,7 @@ body {
 .arrow {
     width: 20px;
     color: #3e64ff;
-    animation: mouse-wheel-animation 4s infinite;
+    animation: mouse-wheel-animation 10s infinite;
 }
 
 @keyframes mouse-wheel-animation {
@@ -145,6 +146,18 @@ body {
     }
     80% {
         transform: translateY(50px);
+    }
+}
+
+@keyframes banner-third-text-type-animation {
+    20% {
+        display: none;
+    }
+    50% {
+        transform: translateY(200px);
+    }
+    85% {
+        letter-spacing: 8px;
     }
 }
 
