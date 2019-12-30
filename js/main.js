@@ -40,6 +40,7 @@ document.onscroll = () => {
         if ((scrollPosition + headerH) >= sectionOffsetTop && ((sectionOffsetTop + getAbsoluteHeight(value)) > scrollPosition)) {
             
             let activeSection = value.getAttribute("id");
+            console.log(activeSection);
 
             let activeLink = document.querySelector(".navbar-nav li a.active-section-link");
             activeLink.classList.remove("active-section-link");
@@ -50,6 +51,30 @@ document.onscroll = () => {
     });
 }
 
+
+/* ======= Aside ===== */
+// let allSideBarSection = document.querySelectorAll(".bio-content");
+
+// document.onscroll = () => {
+//     let scrollPosition = window.scrollY;
+
+//     allSideBarSection.forEach (value => {
+        
+//         let sectionOffsetTop = value.offsetTop;
+
+//         if(sectionOffsetTop + getAbsoluteHeight(value) > scrollPosition) {
+//             let activeSection = value.getAttribute("id");
+
+//             let activeSideBarLink = document.querySelector(".side-bar a .active-side-bar-link");
+//             activeSideBarLink.classList.remove("active-side-bar-link");
+
+//             let currentSideBarLink = document.getElementById(`${activeSection}`);
+//             currentSideBarLink.classList.add("active-side-bar-link");
+//         }
+//     });
+// }
+
+/* ======= Calculate Heigth With Margin + Padding ===== */
 
 const getAbsoluteHeight = (domElement) => {
   

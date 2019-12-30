@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -150,9 +153,6 @@ body {
 }
 
 @keyframes banner-third-text-type-animation {
-    20% {
-        display: none;
-    }
     50% {
         transform: translateY(200px);
     }
